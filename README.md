@@ -1,1 +1,1 @@
-# Retailer-Rewards-V1.0
+Retailer Rewards Calculator
