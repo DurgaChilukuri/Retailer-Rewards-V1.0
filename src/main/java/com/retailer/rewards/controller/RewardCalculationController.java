@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.retailer.rewards.controller;
 
@@ -30,7 +30,7 @@ public class RewardCalculationController {
 	public ResponseEntity<ResponseTemplate> calculcateRewards(@PathVariable String customerId) {
 		log.info("calculating accrued rewards");
 		Integer rewards = customerRewardsCalculator.getEarnedRewards(customerId);
-		ResponseTemplate template = new ResponseTemplate(customerId, rewards, rewards/3);
+		ResponseTemplate template = new ResponseTemplate(customerId, rewards, rewards / 3);
 		return new ResponseEntity<>(template, HttpStatus.OK);
 	}
 }

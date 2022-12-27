@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.retailer.rewards.service;
 
@@ -10,5 +10,5 @@ package com.retailer.rewards.service;
 public interface CustomerRewardsCalculatorSvc {
 
 	public Integer getEarnedRewards(String customerId);
-	
+
 }

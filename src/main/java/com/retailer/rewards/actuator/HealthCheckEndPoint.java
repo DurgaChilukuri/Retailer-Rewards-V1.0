@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.retailer.rewards.actuator;
 
@@ -34,7 +34,7 @@ public class HealthCheckEndPoint implements HealthIndicator {
 
 	@Override
 	public Health health() {
-		 Status status = ready.equalsIgnoreCase("READY") ? Status.UP : Status.DOWN;  
-		 return Health.status(status).build();
+		Status status = ready.equalsIgnoreCase("READY") ? Status.UP : Status.DOWN;
+		return Health.status(status).build();
 	}
 }

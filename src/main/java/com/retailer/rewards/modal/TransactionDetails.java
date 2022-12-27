@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.retailer.rewards.modal;
 

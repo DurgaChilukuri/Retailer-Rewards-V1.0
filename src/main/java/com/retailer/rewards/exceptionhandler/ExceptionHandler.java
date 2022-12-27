@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.retailer.rewards.exceptionhandler;
 
@@ -29,7 +29,7 @@ public class ExceptionHandler {
 		body.put(ERRORS, rnaEx.getMessage());
 		return new ResponseEntity<>(body, HttpStatus.NOT_ACCEPTABLE);
 	}
-	
+
 	@org.springframework.web.bind.annotation.ExceptionHandler(CustomerNotFoundException.class)
 	public ResponseEntity<Object> resourceNotFoundException(CustomerNotFoundException cnfEx, WebRequest req) {
 		Map<String, Object> body = new LinkedHashMap<>();

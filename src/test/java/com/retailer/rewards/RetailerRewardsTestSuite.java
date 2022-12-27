@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.retailer.rewards;
 
@@ -36,13 +36,13 @@ class RetailerRewardsTestSuite {
 	static Stream<List<Customer>> getMockData() {
 
 		/**
-		 * some transactions are already awarded and 
-		 * some transactions amount is less than $50
+		 * some transactions are already awarded and some transactions amount is less
+		 * than $50
 		 */
-		TransactionDetails t1c4 = new TransactionDetails(true, CurrencyInfo.USD, 1000.0, 
-				LocalDate.of(2021, 4, 4).atStartOfDay(), "8");
+		TransactionDetails t1c4 = new TransactionDetails(true, CurrencyInfo.USD, 1000.0,
+				LocalDate.of(2022, 12, 12).atStartOfDay(), "7");
 		TransactionDetails t2c4 = new TransactionDetails(false, CurrencyInfo.USD, 49.0,
-				LocalDate.of(2021, 4, 4).atStartOfDay(), "5");
+				LocalDate.of(2022, 12, 12).atStartOfDay(), "8");
 
 		Customer customer = new Customer(0, 0, "C1", Arrays.asList(t1c4, t2c4));
 
@@ -52,6 +52,7 @@ class RetailerRewardsTestSuite {
 	@MethodSource("getMockData")
 	@ParameterizedTest
 	void assertRewards(List<Customer> customerData) {
-		assertEquals(0, customerRewardsCalculatorSvcImpl.getEarnedRewards(customerData.get(0).getCustomerId(), customerData));
+		assertEquals(0,
+				customerRewardsCalculatorSvcImpl.getEarnedRewards(customerData.get(0).getCustomerId(), customerData));
 	}
 }

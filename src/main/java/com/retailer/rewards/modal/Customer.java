@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.retailer.rewards.modal;
 
@@ -23,5 +23,5 @@ public class Customer {
 	private Integer accruedRewardsPerQuarter;
 	private Integer averageRewardsPerMonth;
 	private String customerId;
-	private List<TransactionDetails> transactionDetailsList; 
+	private List<TransactionDetails> transactionDetailsList;
 }

@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.retailer.rewards.exceptionhandler;
 
@@ -15,7 +15,7 @@ import lombok.Setter;
 public class CustomerNotFoundException extends RuntimeException {
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = -6037960255469964018L;
 
