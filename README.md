@@ -106,7 +106,7 @@ EndPoint URI/ URL : http://localhost:8033/api/v1/customer/{customerId}/rewards
 ![Snapshot -4 ](https://github.com/DurgaChilukuri/Retailer-Rewards-V1.0/blob/Retailer-Rewards-V1.1/src/main/resources/images/Customer4.jpg)
 
 **Customer 5**
-![Snapshot -5 ](https://github.com/DurgaChilukuri/Retailer-Rewards-V1.0/blob/Retailer-Rewards-V1.1/src/main/resources/images/Customer5.jpg)
+![Snapshot -5 ](https://github.com/DurgaChilukuri/Retailer-Rewards-V1.0/blob/Retailer-Rewards-V1.1/src/main/resources/images/Customer6.jpg)
 
 **Error Messages**
 
