@@ -75,7 +75,7 @@ public class CustomerRewardsCalculatorSvcImpl implements CustomerRewardsCalculat
 		List<TransactionDetails> rewardsEligibleTransactionList = customerTransactionDetails.stream()
 				.filter(transaction -> !transaction.getIsTransactionAlreadyRewarded())
 				.filter(transaction -> (Duration
-						.between(LocalDate.of(2022, 5, 15).atStartOfDay(), transaction.getTransactionDate())
+						.between(LocalDate.of(2022, 12, 25).atStartOfDay(), transaction.getTransactionDate())
 						.toDays() < 90))
 				.toList();
 
