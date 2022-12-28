@@ -13,7 +13,8 @@
 1. Right click on the RetailerRewardsTestSuite.java file and run or debug as JUnit
 2. If configured properly, Junit view will show the progress and results.
 
-
+**JUnit Run**
+![Snapshot -10 ](https://github.com/DurgaChilukuri/Retailer-Rewards-V1.0/blob/master/src/main/resources/images/JUnitCase.jpg)
 
 ## Dockerization:
 
